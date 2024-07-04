@@ -1,0 +1,194 @@
+/*css reset*/
+*{
+   margin: 0px;
+   padding: 0px;
+}
+#navbar ul{
+   display: flex;
+   height: 59px;
+}
+#navbar{
+    position: absolute;
+    align-items: center;
+    display: flex;
+}
+#navbar::before{
+    content: "";
+    position: absolute;
+    height: 90vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.9;
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-family: 'Acme', sans-serif;
+    margin: 10px;
+    color: #f5baba;
+    font-size: 20px;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: beige;
+}
+/*home section*/
+#home p{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 620px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: " ";
+    position: absolute;
+    background: url(pic.1/WhatsApp\ Image\ 2023-12-13\ at\ 02.07.38_f8abbdb3.jpg) no-repeat center center/cover;
+    height: 610px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.89;
+}
+#home h1{
+    font-family: 'Kalnia', serif;
+    padding: 55px 2px;
+    font-size: 60px;
+     color: aliceblue;
+    }
+    /*client section*/
+#client-section{
+        height: 340px;
+    }
+#client-section::before{
+        content: "";
+        position: absolute;
+        background-color: black;
+        height: 330px;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.7;
+    }
+    #client-section h1{
+        text-align: center;
+        font-size: 80px;
+        color: bisque;
+    }
+    #clients{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #clients img{
+        height: 155px;
+        padding: 15px;
+        margin: 5px;
+    }
+/*Sercice section*/
+.services-container h1{
+        text-align: center;
+        font-size: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#services{
+    margin: 35px;
+    display: flex;
+}
+#services .box{
+    border: 3px solid brown;
+    padding: 30px;
+    margin: 20px;
+    background-color: rgb(178, 204, 206);
+    border-radius: 23px;
+}
+#services .box img{
+    height: 150px;
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+/*contact-section*/
+#contact h1{
+    font-size: 50px;
+}
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    background-color: burlywood;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 35px;
+}
+#contact-box input,
+#contact-box textarea{
+     width: 100%;
+     padding: 0.5rem;
+     border-radius: 9px;
+    font-size: 1.1 rem;
+}
+#contact-box form{
+      width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+}
+
+/* Utility Classes*/
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+    text-align: center;
+}  
+.h-secondary{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 12px;
+    text-align:  center;
+}
+footer{
+    text-align: center;
+    font-size: 10px;
+    color: azure;
+    background-color: black;
+    padding: 3px 20px;
+}
+.btn{
+   padding: 12px 36px;
+   border: 2px solid black;
+   color: aliceblue;
+   background-color: brown;
+   margin: 20px;
+   border-radius: 14px;
+   font-size: 15px;
+   cursor: pointer;
+}
+.btn:hover{
+    font-size: 18px ;
+    color:blueviolet;
+    background-color: azure;
+}
+
